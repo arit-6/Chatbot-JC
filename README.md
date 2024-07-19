@@ -16,3 +16,4 @@ GROQ_API_KEY = "your api key"
 
 5.I am using the "mixtral-8x7b-32768" model as my LLM
 
+![Flowchart](chatbot/architecture.jpg)
