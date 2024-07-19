@@ -7,8 +7,8 @@ For Groq: Go to this website(https://console.groq.com/playground) and on the API
 For Google: Go to this website(https://aistudio.google.com/app/apikey) and on the get API key tab you can create the API key.
 
 2. Create a .env file and store these API keys
-GOOGLE_API_KEY = ""
-GROQ_API_KEY = ""
+GOOGLE_API_KEY = "your api key"
+GROQ_API_KEY = "your api key"
 
 3. And simply run the python file in terminal -- streamlit run "path of the app.py file"
 
