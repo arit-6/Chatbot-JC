@@ -1,5 +1,9 @@
 ## Chatbot-JC
 
+### About
+
+This project is a custom chatbot application built using Streamlit for the user interface and Langchain for various natural language processing tasks. The chatbot is designed to process user queries by retrieving relevant documents, generating context-aware responses, and maintaining a conversational history. It leverages the power of ChatGroq and GoogleGenerativeAIEmbeddings to provide accurate and relevant responses based on the context
+
 ### Instructions
 
 1. First you need to create API Keys:
