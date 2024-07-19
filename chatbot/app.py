@@ -68,13 +68,7 @@ if prompt1:
     context = "\n".join([item.page_content for item in retrived_data])
     llm_chain = LLMChain(prompt=prompt, llm=llm)
     start = time.process_time()
-    response = llm_chain.run(input=prompt1, context=context+historical_context)
-
-    # if ":" in response:
-    #     index = response.split(":")
-    #     output = index[1].strip() 
-    # else:
-    #     output = response   
+    response = llm_chain.run(input=prompt1, context=context+historical_context) 
    
 
     st.chat_message('user').markdown(prompt1)
